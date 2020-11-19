@@ -391,17 +391,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 30px;
   display: block;
   background: none;
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
+  padding: 5px 0 0 0;
+  margin: 0 0 0px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -409,29 +409,12 @@ section {
   color: #050d18;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+.skills h4{
+  font-size: 22px;
+  font-weight: bold;
+  color: #173b6c;
 }
 
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #149ddd;
-}
-.skills ul {
-  list-style: none;
-}
-.skills ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #149ddd;
-}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -891,7 +874,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: 50px;
   text-align: left;
 }
 
