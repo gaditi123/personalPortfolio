@@ -424,7 +424,14 @@ section {
   transition: .9s;
   background-color: #149ddd;
 }
-
+.skills ul {
+  list-style: none;
+}
+.skills ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #149ddd;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
