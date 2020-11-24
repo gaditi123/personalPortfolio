@@ -335,7 +335,14 @@ section {
   padding-right: 2px;
   color: #149ddd;
 }
-
+.about .content h5{
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -438,7 +445,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #f5f8fd;
   border-radius: 50px;
   padding: 2px 15px;
 }
