@@ -22,6 +22,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -118,66 +119,43 @@
           <h2>Skills</h2>
         </div>
         <div class="row skills-content">
-          <div class="col-lg-2" data-aos="fade-up"></div>
           <div class="col-lg-3" data-aos="fade-up">
            <h4>Progamming</h4>
-            <div class="progress">
-              <span class="skill">C/C++</span>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python </span>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Dart</span>
-            </div>
-            <div class="progress">
-              <span class="skill">Javascript </span>
-            </div>
+           <span class="iconify" data-icon="logos:c" data-inline="false"></span>
+           <span class="iconify" data-icon="logos:c-plusplus" data-inline="false"></span>
+           <span class="iconify" data-icon="logos:python" data-inline="false"></span>
+           <span class="iconify" data-icon="vscode-icons:file-type-dartlang" data-inline="false"></span>
+           <span class="iconify" data-icon="logos:javascript" data-inline="false"></span>
+           <span class="iconify" data-icon="vscode-icons:file-type-verilog" data-inline="false"></span>
           </div>
 
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <h4>Web/App Dev</h4>
-            <div class="progress">
-              <span class="skill">HTML/CSS </span>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Bootstrap </span>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Django </span>
-            </div>
-            <div class="progress">
-              <span class="skill">Flutter </span>
-            </div>
-            <div class="progress">
-              <span class="skill">Firebase </span>
-            </div>
+            <h4>ML / AI</h4>
+            <span class="iconify" data-icon="cib:keras" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:pytorch" data-inline="false"></span>
+            <span class="iconify" data-icon="logos-tensorflow" data-inline="false"></span>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <h4>Devlopment</h4>
+            <span class="iconify" data-icon="logos:html-5" data-inline="false"></span>
+            <span class="iconify" data-icon="logos:css-3" data-inline="false"></span>          
+        <span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span>
+        <span class="iconify" data-icon="logos:django-icon" data-inline="false"></span>
+        <span class="iconify" data-icon="logos:flutter" data-inline="false"></span>
+        <span class="iconify" data-icon="logos:firebase" data-inline="false"></span>
+        <span class="iconify" data-icon="logos:graphql" data-inline="false"></span>
           </div>
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="00">
             <h4>Others</h4>
-            <div class="progress">
-              <span class="skill">Git/Github </span>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Competitive Coding  </span>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photoshop </span>
-            </div>
-            <div class="progress">
-              <span class="skill">Debating</span>
-            </div>
-            <div class="progress">
-              <span class="skill">Public Speaking </span>
-            </div>
+        <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span>
+        <span class="iconify" data-icon="logos:git-icon" data-inline="false"></span>
+        <span class="iconify" data-icon="mdi:microsoft-office" data-inline="false"></span>
+        <span class="iconify" data-icon="vscode-icons:file-type-photoshop" data-inline="false"></span>
+        <span class="iconify" data-icon="cib:adobe-xd" data-inline="false" data-toggle="tooltip" title="Default tooltip" ></span>
           </div>
         </div>
+
+
       </div>
     </section><!-- End Skills Section -->
 
@@ -428,6 +406,11 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

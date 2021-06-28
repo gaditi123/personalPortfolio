@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a {
-  font-size: 18px;
+  font-size: 22px;
   display: inline-block;
   background: #212431;
   color: #fff;
@@ -214,15 +214,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
-}
-
-#hero p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
 
@@ -293,6 +287,7 @@ section {
 }
 @media (max-width: 450px) {
   .about .content p{
+    padding-top: 20px;
       font-size: 28px;
   }
 }
@@ -325,6 +320,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.iconify{
+  font-size: 60px;
+  padding: 10px;
+}
 .skills .progress {
   height: 25px;
   display: block;
