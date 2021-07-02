@@ -376,34 +376,12 @@ section {
 }
 
 .portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
-  color: var(--blue);
+  color: var(--cyan);
 }
 
 .portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
-
-.portfolio .portfolio-wrap .portfolio-links {
-  opacity: 1;
-  left: 0;
-  right: 0;
-  bottom: -60px;
-  z-index: 3;
-  position: absolute;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  justify-content: center;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  font-size: 28px;
-  text-align: center;
-  background: rgba(20, 157, 221, 0.75);
-  transition: 0.3s;
-  width: 50%;
-}
-
 
 
 :root {
@@ -429,27 +407,27 @@ section {
   padding: 20px;
   margin: 10px;  
 }
-.box h4{
+.box h6{
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 700;
 }
 .box p{
-  font-size: 15px;
+  font-size: 14px;
 }
 .projectDate{
   font-size: 11px;
-}
-
-@media (max-width: 450px) {
-  .box {
-      height: 180px;
-  }
+  margin-bottom: 10px;
 }
 
 @media (max-width: 950px) and (min-width: 450px) {
-  .box {
-      text-align: center;
-      height: 150px;
+  .portfolio #portfolio-filters li{
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px){
+  .portfolio #portfolio-filters li{
+    font-size: 12px;
   }
 }
 
@@ -465,7 +443,11 @@ section {
 .orange {
   border-top: 3px solid var(--orange);
 }
-
+.row1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 950px) {
   .row1-container {
       display: flex;
@@ -489,7 +471,10 @@ section {
   }
   
 }
-
+.badge{
+  color: #fff;
+  background-color: #6A6E71 !important;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -506,7 +491,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: var(--c);
+  color: var(--cyan);
   float: left;
   width: 44px;
   height: 44px;
@@ -532,7 +517,15 @@ section {
 }
 
 .contact .info .email p {
-  padding-top: 5px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.contact .info .email p:last-child {
+  padding-right: 60px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact .info .social-links {
@@ -550,6 +543,9 @@ section {
   height: 32px;
   transition: 0.3s;
   margin-right: 10px;
+}
+.contact .info .social-media .social-media-list i:hover {
+  color: var(--blue);
 }
 
 
@@ -631,9 +627,13 @@ section {
   background: var(--cyan);
   border: 0;
   padding: 10px 12px;
-  color: #fff;
+  color: #000;
+  font-weight: 600;
   transition: 0.4s;
   border-radius: 15px;
+}
+.contact .php-email-form button[type="submit"]:hover {
+  background: var(--blue);
 }
 
 @-webkit-keyframes animate-loading {
