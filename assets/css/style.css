@@ -278,17 +278,27 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
   color: #173b6c;
 }
 .about .content p{
-
-  font-size: 35px;
+  font-size: 34px;
+}
+.about img{
+  margin-left: auto;  
+  margin-right: auto;  
+  margin-top: 40px;
+  display: block;
+  height: 200px;
+  width: 200px;
 }
 @media (max-width: 450px) {
   .about .content p{
     padding-top: 20px;
-      font-size: 28px;
+    font-size: 28px;
+  }
+  .about img{
+    margin:auto;
   }
 }
 .about .content ul {
@@ -434,15 +444,7 @@ section {
 .cyan {
   border-top: 3px solid var(--cyan);
 }
-.red {
-  border-top: 3px solid var(--red);
-}
-.blue {
-  border-top: 3px solid var(--blue);
-}
-.orange {
-  border-top: 3px solid var(--orange);
-}
+
 .row1-container {
   display: flex;
   justify-content: center;
